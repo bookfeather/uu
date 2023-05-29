@@ -1,0 +1,134 @@
+.big_title {
+    font-size: 84px;
+    margin-bottom: -20px;
+}
+
+.decoline {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+ .icon {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content:space-between;
+
+ }
+
+ .count {
+    display: flex;
+    height: 50px;
+    border: solid #B1B1B1 1px;
+    
+    
+ }
+
+ .count_text {
+    font-family: 'Yomogi';
+    color: #B1B1B1;
+    font-size: 1rem;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 10px;
+    
+ }
+
+ .count_icon {
+    height: 50px;
+    width: 50px;
+    background-color: #B1B1B1;
+ }
+
+ .count_cart {
+    padding-top: 3px;
+    background-color: #B1B1B1;
+ }
+
+ .container {
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+ }
+ 
+ .goods{
+    background-color: #B1B1B1;
+    padding: 2%;
+    margin-bottom: 5%;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.image_big {
+    width: 50%;
+ }
+
+ .info {
+    width: 47%;
+    
+ }
+
+ .title {
+    font-family: 'Yomogi';
+    color: #444444;
+    font-size: 40px;
+ }
+
+ .seller {
+    font-family: 'Yomogi';
+    color: #727272;
+    font-size: 32px;
+ }
+
+ .category {
+    font-family: 'Alumni Sans';
+    font-size: 24px;
+    color: #B1B1B1;
+    background-color: #444444;
+    padding:0 5% ;
+ }
+
+ .price {
+   font-family: 'Yomogi';
+   color: #444444;
+   font-size: 32px;
+ }
+
+ .status {
+   font-family: 'Yomogi';
+   color: #444444;
+   font-size: 24px;
+ }
+
+ .btn {
+   height: auto;
+   font-size: 1.2rem;
+   font-weight: 300;
+   margin-top: 1rem;
+   background-color: #444444;
+   font-family: 'Yomogi';
+   color: #B1B1B1;
+ }
+
+ .qty{
+   font-family: 'Yomogi';
+   color: #444444;
+   font-size: 24px;
+   margin-bottom: 16px;
+ }
+
+ .tatol {
+   font-family: 'Yomogi';
+   color: #444444;
+   font-size: 24px;
+ }
+ 

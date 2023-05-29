@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    background-image: url('/images/footer.jpg');
+    /* align-items: center; */
+    justify-content: center;
+    /* vertical-align: middle;
+    align-content: center;       */
+    
+  }
+  .footer_text{
+    padding-top: 2vw;
+    height: 5vw;
+  }

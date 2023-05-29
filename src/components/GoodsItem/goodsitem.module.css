@@ -1,0 +1,31 @@
+.item {
+    background-color: #B1B1B1;
+    padding: 2%;
+ }
+
+ .Info {
+    margin-top: 3%;
+    color: #444444;
+    font-family: 'Yomogi';
+    font-weight: bold;
+    position: relative;
+ }
+
+ .title {
+   font-size: 24px;
+ }
+
+ .category {
+   font-family: 'Alumni Sans';
+   font-size: 18px;
+   background-color: #444444;
+   color: #b1b1b1;
+ }
+
+ .seller {
+    font-size: 18px;
+ }
+
+ .price {
+   font-size: 18px;
+ }

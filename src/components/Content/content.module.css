@@ -1,0 +1,240 @@
+.content {
+  margin-top: 2%;
+  width: 100%;
+}
+
+.Carousel_textarea{
+  font-family: 'Yomogi', serif;
+  padding-bottom: 0;
+}
+@media (max-width: 400px) {
+  .Carousel_text1 {
+    font-size: 16px; 
+  }
+
+  .Carousel_text2 {
+    font-size: 10px;
+  }
+}
+.main_visual {
+  width: 80%;
+}
+
+#c2p {
+  color: #444444;
+}
+
+.content_up {
+  display: flex;
+  margin: 3.5% 10%;
+  color: #b1b1b1;
+  border-bottom-style: solid;
+  justify-content: space-between;
+  text-align: right;
+  align-items: flex-end;
+}
+
+
+.content_title {
+  margin-bottom: 0%;
+  font-size: 64px;
+}
+
+.content_more {
+  text-decoration: none;
+  color: #b1b1b1;
+  font-size: 2em;
+}
+
+.text_area{
+  margin: 0% 10% 2.5% 10%;
+  /* width: 70%; */
+}
+
+.date_bg {
+  background: #b1b1b1;
+  width: 100px;
+  height: 30px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.date {
+  color: #444444;
+  font-weight:bold;
+  font-size: 24px;
+  padding-top: 2%;
+}
+/*向css那樣放重複使用class名稱的功能我不會用在module.css QQ*/
+.news_text1{
+  margin: 1% 3%;
+  padding-bottom: 0.5%;
+  font-family: 'Yomogi', serif;
+  font-size: 22px;
+  border-bottom: solid;
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+  animation: type 2s steps(22), blink 0.5s infinite alternate;
+    -webkit-animation: type 2s steps(22), blink 0.5s infinite alternate;
+}
+.news_text2{
+  margin: 1% 3%;
+  padding-bottom: 0.5%;
+  font-family: 'Yomogi', serif;
+  font-size: 22px;
+  border-bottom: solid;
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+  animation: type 3s steps(23), blink 0.5s infinite alternate;
+    -webkit-animation: type 3s steps(23), blink 0.5s infinite alternate;
+}
+.news_text3{
+  margin: 1% 3%;
+  padding-bottom: 0.5%;
+  font-family: 'Yomogi', serif;
+  font-size: 22px;
+  border-bottom: solid;
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+  animation: type 4s steps(24), blink 0.5s infinite alternate;
+    -webkit-animation: type 4s steps(24), blink 0.5s infinite alternate;
+}
+.news_text4{
+  margin: 1% 3%;
+  padding-bottom: 0.5%;
+  font-family: 'Yomogi', serif;
+  font-size: 22px;
+  border-bottom: solid;
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+  animation: type 5s steps(27), blink 0.5s infinite alternate;
+    -webkit-animation: type 5s steps(27), blink 0.5s infinite alternate;
+} 
+@keyframes type {
+    0% {
+        width: 50%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+/* @keyframes blink {
+    from {
+        border-color: transparent;
+    }
+
+    to {
+        border-color: #ffffff;
+    }
+} */
+
+@media (max-width: 400px) {
+  .content_up {
+    margin: 3.5% 5%;
+  }
+
+  .text_area {
+    margin: 3% 5%;
+  }
+
+  .news_text1 {
+    font-size: 18px;
+    animation: none;
+    /* margin: 2% 2%; */
+    padding-bottom: 6px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    /* max-width: 300px; */
+  }
+
+  .news_text2 {
+    font-size: 18px;
+    animation: none;
+    padding-bottom: 6px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+  }
+
+  .news_text3 {
+    font-size: 18px;
+    animation: none;
+    padding-bottom: 6px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+  }
+
+  .news_text4 {
+    font-size: 18px;
+    animation: none;
+    padding-bottom: 6px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    
+  }
+}
+.arrow{
+  width: 0;
+  height: 0;
+  border-width: 6px;
+  border-style: solid;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  margin: 10px;
+}
+
+.home_video {
+  margin: 2% 12%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media(max-width:400px) {
+  .home_video {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .video_viewer{
+    margin: 18px -10px ;
+  }
+}
+
+
+.home_store {
+  margin: 2% 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home_store_img {
+  width: 18%;
+  height: auto;
+  box-shadow: 2px 2px 2px;
+  /* border-style:inset */
+}
+
+@media(max-width:400px) {
+  .home_store {
+    margin: 10% 75px;
+    display: flex;
+    flex-direction: column;
+  }
+  .home_store_img {
+    width: 220px;
+    margin: 5%;
+  }
+}

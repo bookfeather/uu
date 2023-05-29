@@ -1,0 +1,103 @@
+[
+    {
+        "id": "1",
+        "title": "嘘八百",
+        "category": "album",
+        "seller": "悒うつぼ",
+        "image":"/images/CD1.jpg",
+        "price": 2500,
+        "countInStock": 100,
+        "description": " "
+    },
+    {
+        "id": "2",
+        "title": "限定CD『家苞』",
+        "category": "album",
+        "seller": "千川帰海",
+        "image":"/images/CD2.jpg",
+        "price": 1000,
+        "countInStock": 20,
+        "description": " "
+    },
+    {
+        "id": "3",
+        "title": "回送行き",
+        "category": "album",
+        "seller": "悒うつぼ",
+        "image":"/images/CD3.jpg",
+        "price": 3000,
+        "countInStock": 200,
+        "description": " "
+    },
+    {
+        "id": "4",
+        "title": "丁シャツ(黒)_アパート",
+        "category": "merchandise",
+        "seller": "千川帰海",
+        "image":"/images/T1.jpg",
+        "price": 5500,
+        "countInStock": 0,
+        "description": " "
+    },
+    {
+        "id": "5",
+        "title": "丁シャツ(墨)_さかさ",
+        "category": "merchandise",
+        "seller": "千川帰海",
+        "image":"/images/T2.jpg",
+        "price": 5500,
+        "countInStock": 45,
+        "description": " "
+    },
+    {
+        "id": "6",
+        "title": "栞(三種一組)",
+        "category": "merchandise",
+        "seller": "千川帰海",
+        "image":"/images/shiori.jpg",
+        "price": 1500,
+        "countInStock": 30,
+        "description": " "
+    },
+    {
+        "id": "7",
+        "title": "一合枡",
+        "category": "merchandise",
+        "seller": "千川帰海",
+        "image":"/images/masu.jpg",
+        "price": 2000,
+        "countInStock": 20,
+        "description": " "
+    },
+    {
+        "id": "8",
+        "title": "半袖丁シャツ(墨)_洗濯機",
+        "category": "merchandise",
+        "seller": "千川帰海",
+        "image":"/images/T3.jpg",
+        "price": 5500,
+        "countInStock": 50,
+        "description": " "
+    },
+    {
+        "id": "9",
+        "title": "長袖丁シャツ(土埃)_徘徊",
+        "category": "merchandise",
+        "seller": "千川帰海",
+        "image":"/images/T4.jpg",
+        "price": 6500,
+        "countInStock": 50,
+        "description": " "
+    },
+    {
+        "id": "10",
+        "title": "ハンカチーフ",
+        "category": "merchandise",
+        "seller": "千川帰海",
+        "image":"/images/ハンカチーフ.jpg",
+        "price": 1500,
+        "countInStock": 50,
+        "description": " "
+    }
+]
+    
