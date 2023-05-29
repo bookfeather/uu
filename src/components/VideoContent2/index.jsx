@@ -2,8 +2,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { Row, Col } from "antd";
 import { Link } from "react-router-dom"
 import styles from "./videocontent.module.css";
-import videos from "../../json/videos.json";
-export default function VideoContent() {
+import videos2 from "../../json/videos2.json";
+export default function VideoContent2() {
     return (
         <div>
             <p className={styles.big_title}>VIDEO</p>
@@ -21,7 +21,7 @@ export default function VideoContent() {
             </div>
             <div>
                 <Row gutter={[24, 24]}>
-                    {videos.map((item) => (
+                    {videos2.map((item) => (
                         <Col key={item.id}
                             link={item.link}
                             name={item.name}
@@ -44,11 +44,10 @@ export default function VideoContent() {
                     ))};
                 </Row>
                 <Link to={`/Video`} className={styles.menu_item}>
-                    <button className={styles.numbtm2}>1</button>
+                    <button className={styles.numbtm}>1</button>
                 </Link>
-
                 <Link to={`/Video2`} className={styles.menu_item}>
-                    <button className={styles.numbtm}>2</button>
+                    <button className={styles.numbtm2}>2</button>
                 </Link>
             </div>
         </div>
